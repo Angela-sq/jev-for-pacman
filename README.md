@@ -1,6 +1,6 @@
-# Decision Pac-Man
+# Jev for Pac-Man
 
-A student side project. It studies whether an oracle can post-train a small decision model like Jev. The oracle is a search that rolls the game engine 5 seconds forward for each option at a junction (`oracle-pellets-5s`). The oracle labels game states, and a small model is fine-tuned on those labels. The fine-tuned model then plays from the current state alone, with no lookahead.
+We study whether an oracle can post-train a small decision model like Jev. The oracle is a search that rolls the game engine 5 seconds forward for each option at a junction (`oracle-pellets-5s`). The oracle labels game states, and a small model is fine-tuned on those labels. The fine-tuned model then plays from the current state alone, with no lookahead.
 
 ## Run
 
