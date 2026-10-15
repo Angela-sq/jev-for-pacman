@@ -1,0 +1,3 @@
+# Apple silicon training environment for train_mlx.py, merge_mlx.py, and score_mlx.py.
+mlx==0.32.3
+mlx-lm==0.32.0

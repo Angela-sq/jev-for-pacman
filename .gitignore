@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+runs/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+tmp/
+data/
+__pycache__/
+.venv-*/
